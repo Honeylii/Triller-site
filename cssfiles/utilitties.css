@@ -1,0 +1,121 @@
+/* BackGround & coloured button */
+
+.btn-primary, .bg-primary{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.btn-secondary, .bg-secondary{
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+.btn-dark, .bg-dark{
+    background-color: var(--dark-color);
+    color: #fff;
+}
+.btn-light, .bg-light{
+    background-color: var(--light-color);
+    color: #fff;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.bg-primary a,
+.btn-primary a,
+.btn-secondary a,
+.bg-secondary a,
+.bg-dark a,
+.btn-dark a {
+    color: #fff;
+}
+
+/* /Text-sizes/ */
+.lead{
+   font-size:20px ;
+}
+.sm{
+   font-size: 1rem;
+}
+.md{
+    font-size:2rem ;
+}
+.lg{
+    font-size:3rem ;
+}
+.xl{
+    font-size: 4rem;
+}
+
+
+
+
+
+/* margins */
+.my-1{
+    margin: 1rem 0;
+}
+
+.my-2{
+    margin: 1.5rem 0;
+}
+
+.my-3{
+    margin: 2rem 0;
+}
+
+.my-4{
+    margin: 3rem 0;
+}
+
+.my-5{
+    margin: 4rem 0;
+}
+
+
+
+/* margins */
+.m-1{
+    margin: 1rem 0;
+}
+
+.m-2{
+    margin: 1.5rem 0;
+}
+
+.m-3{
+    margin: 2rem 0;
+}
+
+.m-4{
+    margin: 3rem 0;
+}
+
+.m-5{
+    margin: 4rem 0;
+}
+
+/* /padding */
+
+/* margins */
+.py-1{
+    padding: 1rem 0;
+}
+
+.py-2{
+    padding: 1.5rem 0;
+}
+
+.py-3{
+    padding: 2rem 0;
+}
+
+.py-4{
+    padding: 3rem 0;
+}
+
+.py-5{
+    padding: 4rem 0;
+}
+
