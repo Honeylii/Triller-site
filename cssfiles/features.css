@@ -150,8 +150,13 @@ header{
 .features-main .grid-1 > *:nth-child(2){
     grid-column: 1/ span 2;
 }
+.features-main .card{
+    transition: transform 0.2s ease-in;
+}
 
-
+.features-main .card:hover{
+    transform: translateX(15px);
+}
 
 
 
