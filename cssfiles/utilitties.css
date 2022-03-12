@@ -17,6 +17,10 @@
     color: #fff;
 }
 
+.sub-headbg-light{
+    background-color: var(--light-color);
+}
+
 
 .text-center{
     text-align: center;

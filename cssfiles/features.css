@@ -56,14 +56,35 @@ header{
     padding: 0 40px;
     margin: 0 auto;
 }
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    color:#333 ;
+    margin: 10px;
+}
 
+.features .grid-1 img{
+    width: 200px;
+    justify-self: flex-end;
+}
+
+.grid-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
 .flex{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
     height: 100%;
 }
+
 
  ul{
     display: flex;
@@ -86,21 +107,57 @@ header{
     background-color: var(--primary-color);
 }
 
-.features-flex {
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   justify-content: center;
-   align-items: center;
-}
+
 
 .features h1{
     font-size: 48px;
 }
 
-.features-flex img {
+.features-flex img{
     width: 250px;
     justify-self:flex-end;
 }
+.sub-head img{
+    width: 300px;
+    justify-self: flex-end;
+}
+
+/* /Sub-head/ */
+.sub-head{
+    color: var(--dark-color);
+}
+
+
+
+
+
+
+
+/* Features-main  */
+.grid-3{
+    grid-template-columns: repeat(3, 1fr);
+}
+.features-main .card > i {
+    margin-right: 20px;
+}
+
+.features-main .grid-1 {
+    padding: 30px;
+}
+.features-main .grid-1 > *:first-child {
+    grid-column: 1/span 3;
+}
+.features-main .grid-1 > *:nth-child(2){
+    grid-column: 1/ span 2;
+}
+
+
+
+
+
+
+
+
 
 /* /Footer/ */
 .footer{
@@ -123,6 +180,12 @@ footer .social a{
     padding: 10px;
 }
 
+/* Sub-heading */
+.sub-head{
+    color: #333;
+}
+
+
 /* Tablet */
 
 @media (max-width :786px){
@@ -142,12 +205,18 @@ footer .social a{
         width: 250px;
         justify-self:end;
     }
-     .features-flex{
+    .features .grid-1 img{
+        margin-top: 2rem;
+    }
+     .grid-1{
          display: flex;
          flex-direction: column;
          align-items: center;
          gap: 30px;
          
+     }
+     .sub-head{
+         text-align: center;
      }
 }
 
@@ -175,7 +244,7 @@ footer .social a{
 
 @media(max-width:380px){
     .features{
-        height: 500px;
+        height: 470px;
         background-color: var(--primary-color);
     }
 }
